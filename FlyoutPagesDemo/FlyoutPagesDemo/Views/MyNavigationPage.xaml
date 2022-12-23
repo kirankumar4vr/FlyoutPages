@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="FlyoutPagesDemo.Views.MyNavigationPage"
+             Title="MyNavigationPage">
+    <NavigationPage.TitleView>
+        <HorizontalStackLayout>
+        <ImageButton Source="close_davygray.png" HorizontalOptions="Start" Clicked="ImageButton_Clicked"/>
+        <Label Text="My Page" TextColor="White" FontSize="Title" HorizontalOptions="Center" VerticalOptions="Center"/>
+            </HorizontalStackLayout>
+    </NavigationPage.TitleView>
+    <VerticalStackLayout>
+        <Label 
+            Text="My Navigation Page"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+    </VerticalStackLayout>
+</ContentPage>
