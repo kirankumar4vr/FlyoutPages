@@ -4,6 +4,6 @@
              x:Class="FlyoutPagesDemo.Views.LandingPage"
              Title="LandingPage">
     <VerticalStackLayout VerticalOptions="Center">
-        <Button Text="Click Me!" VerticalOptions="Center" HorizontalOptions="Center" Clicked="Button_Clicked"/>
+        <Button Text="Click Here!" VerticalOptions="Center" HorizontalOptions="Center" Clicked="Button_Clicked"/>
     </VerticalStackLayout>
 </ContentPage>
